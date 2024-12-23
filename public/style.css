@@ -38,4 +38,12 @@ a {
   font-weight: 800;
   font-style: normal;
   font-stretch: extra-expanded;
+  background-color: #e10600;
+  color: #FDFFF7;
+  border: 5px ridge #6D6D6D;
+  padding: 7px;
+  font-size: 21px;
+  text-align: center;
+  text-decoration: none;
+}
 }
