@@ -49,6 +49,9 @@ section div p {
   font-size: 18px;
   color: #000000;
 }
+section div img {
+  display: grid;
+}
 
 /* Navigation bar */
 nav {
@@ -174,3 +177,35 @@ button {
   font-weight: bold;
 }
 
+        /* Gallery Section */
+        #gallery {
+            margin: 20px;
+        }
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .image-grid img {
+            width: 100%; /* Makes images fill their container */
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .video-container video {
+            width: 100%;
+            max-width: 600px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .carousel-inner img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
