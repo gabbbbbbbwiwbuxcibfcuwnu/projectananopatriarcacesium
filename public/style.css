@@ -33,8 +33,23 @@ to this section's matching END comment to see page-specific styles.
   font-style: normal;
 }
 
+@font-face {
+  font-family: "F1_regular";
+  src: url(https://cdn.glitch.global/2dade504-d355-46c2-8075-625793cc7e86/public%2FFormula1-Regular_web_0.ttf?v=1734948331492);
+}
+
+@font-face {
+  font-family: "F1_bold";
+  src: url(https://cdn.glitch.global/2dade504-d355-46c2-8075-625793cc7e86/public%2FFormula1-Bold_web_0.ttf?v=1734948320809);
+}
+
+@font-face {
+  font-family: "F1_Wide";
+  src: url(https://cdn.glitch.global/2dade504-d355-46c2-8075-625793cc7e86/public%2FFormula1-Wide_web_0.ttf?v=1734948307830);
+}
+
 a {
-  font-family: "Bebas Neue", serif;
+  font-family: "F1_Wide";
   font-weight: 800;
   font-style: normal;
   font-stretch: extra-expanded;
@@ -48,5 +63,5 @@ a {
 }
 
 body {
-  background-color: ca#fff5e4;
+  background-color: #fff5e4;
 }
