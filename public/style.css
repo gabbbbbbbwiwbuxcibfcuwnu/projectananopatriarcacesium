@@ -8,15 +8,14 @@ to this section's matching END comment to see page-specific styles.
 ******************************************************************************/
 /* Our default values set as CSS variables */
 :root {
-  --color-bg: #FFFFFF;
-  --color-text-main: #000000;
-  --color-text-header: #2800FF;
-  --color-primary: #AFECE0;
+  --color-bg: #1E1E1E; /* Dark gray for the background */
+  --color-text-main: #FDFFF7; /* Off-white for text */
+  --color-text-header: #E10600; /* Iconic F1 red for headers */
+  --color-primary: #6D6D6D; /* Neutral gray for accents */
   --wrapper-height: 87vh;
-  --image-max-width: 300px;
-  --image-margin: 3rem;
-  --font-family: "HK Grotesk";
-  --font-family-header: "HK Grotesk";
+  --font-family-main: "F1_regular";
+  --font-family-bold: "F1_bold";
+  --font-family-wide: "F1_Wide";
 }
 
 /* Basic page style resets */
@@ -33,33 +32,39 @@ to this section's matching END comment to see page-specific styles.
   font-style: normal;
 }
 
+/* Custom Font Faces */
 @font-face {
   font-family: "F1_regular";
-  src: url(https://cdn.glitch.global/2dade504-d355-46c2-8075-625793cc7e86/public%2FFormula1-Regular_web_0.ttf?v=1734948331492);
+  src: url('https://cdn.glitch.global/2dade504-d355-46c2-8075-625793cc7e86/public%2FFormula1-Regular_web_0.ttf?v=1734948331492');
 }
 
 @font-face {
   font-family: "F1_bold";
-  src: url(https://cdn.glitch.global/2dade504-d355-46c2-8075-625793cc7e86/public%2FFormula1-Bold_web_0.ttf?v=1734948320809);
+  src: url('https://cdn.glitch.global/2dade504-d355-46c2-8075-625793cc7e86/public%2FFormula1-Bold_web_0.ttf?v=1734948320809');
 }
 
 @font-face {
   font-family: "F1_Wide";
-  src: url(https://cdn.glitch.global/2dade504-d355-46c2-8075-625793cc7e86/public%2FFormula1-Wide_web_0.ttf?v=1734948307830);
+  src: url('https://cdn.glitch.global/2dade504-d355-46c2-8075-625793cc7e86/public%2FFormula1-Wide_web_0.ttf?v=1734948307830');
 }
 
-a {
-  font-family: "F1_Wide";
-  font-weight: 800;
-  font-style: normal;
-  font-stretch: extra-expanded;
-  background-color: #e10600;
-  color: #FDFFF7;
-  border: 5px ridge #6D6D6D;
-  padding: 7px;
-  font-size: 21px;
-  text-align: center;
+/* Navigation Styles */
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-primary);
+  padding: 10px;
+}
+nav a {
+  font-family: "F1_regular";
+  font-family: var(--font-family-wide);
+  font-size: 18px;
+  color: var(--color-text-main);
   text-decoration: none;
+  margin: 0 15px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
 
 body {
