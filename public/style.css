@@ -56,8 +56,7 @@ nav {
   padding: 10px;
 }
 nav a {
-  font-family: "F1_regular";
-  font-family: var(--font-family-wide);
+  font-family: "Bebas Neue", serif;
   font-size: 18px;
   color: var(--color-text-main);
   text-decoration: none;
