@@ -209,3 +209,26 @@ button {
             height: auto;
             border-radius: 10px;
         }
+
+  /* General image styling */
+  .grand-prix-img {
+    width: 100%; 
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px 0;  
+  }
+
+  /* Additional styling for dropdown if needed */
+  .dropdown-content {
+    text-align: center;
+    margin: 20px;
+  }
+
+  /* Make sure images in the dropdown content don't overflow */
+  .dropdown-content img {
+    width: 100%;
+    max-width: 600px;  /* Limit max width to prevent large images from going off-screen */
+    height: auto;
+  }
+
