@@ -50,7 +50,7 @@ section div p {
   color: #000000;
 }
 section div img {
-  display: grid;
+  display: flex;
 }
 
 /* Navigation bar */
