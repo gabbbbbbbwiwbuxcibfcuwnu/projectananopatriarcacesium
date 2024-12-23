@@ -69,3 +69,15 @@ nav a {
 body {
   background-color: #fff5e4;
 }
+
+section {
+  margin: 20px auto;
+  width: 90%;
+  max-width: 1200px;
+  padding: 10px;
+  border: 2px solid #000000;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  text-align: center;
+}
