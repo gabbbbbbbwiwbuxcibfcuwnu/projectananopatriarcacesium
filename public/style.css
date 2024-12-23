@@ -71,6 +71,7 @@ body {
 }
 
 section {
+  font-family: "Bebas Neue", serif;
   margin: 20px auto;
   width: 90%;
   max-width: 1200px;
