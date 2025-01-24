@@ -217,16 +217,12 @@ button:hover {
   margin: 10px 0;
 }
 
-.tourney-font {
-  font-family: "Tourney", serif;
-  font-style: italic;
-}
     .testPIndex {
       position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      font-family: Arial, sans-serif;
+      font-family: 'Tourney', sans-serif;
       text-align: center;
       color: #343a40;
       margin: 0;
