@@ -221,14 +221,24 @@ button:hover {
   font-family: "Tourney", serif;
   font-style: italic;
 }
+    .testPIndex {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: Arial, sans-serif;
+      text-align: center;
+      color: #343a40;
+      margin: 0;
+    }
 
-.main{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 64px; /* Big font size */
-  font-weight: bold;
-  color: #343a40; /* Modern dark gray color */
-  text-align: center;
-}
+    h1.testPIndex {
+      font-size: 64px;
+      font-weight: bold;
+    }
+
+    p.testPIndex {
+      font-size: 20px;
+      color: #868e96;
+      margin-top: 50px;
+    }
