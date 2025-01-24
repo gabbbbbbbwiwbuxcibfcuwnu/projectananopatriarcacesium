@@ -223,6 +223,7 @@ button {
   .dropdown-content {
     text-align: center;
     margin: 20px;
+    width: 50%;
   }
 
   /* Make sure images in the dropdown content don't overflow */
@@ -230,5 +231,6 @@ button {
     width: 100%;
     max-width: 600px;  /* Limit max width to prevent large images from going off-screen */
     height: auto;
+    margin: auto;
   }
 
