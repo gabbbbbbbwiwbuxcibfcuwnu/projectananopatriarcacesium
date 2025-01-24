@@ -5,8 +5,8 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #000;
-  color: #EEDBBF;
+  background-color: #f8f9fa; /* Light background */
+  color: #343a40; /* Dark gray text */
   font-family: Arial, sans-serif;
 }
 
@@ -14,9 +14,9 @@ body {
 section {
   padding: 10px;
   margin: 20px auto;
-  border: 2px solid #AB3130;
+  border: 2px solid #adb5bd; /* Light gray border */
   border-radius: 8px;
-  background-color: #67191F;
+  background-color: #ffffff; /* White background */
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -25,55 +25,56 @@ section {
 
 section h1 {
   font-size: 24px;
-  color: inherit;
+  color: #495057; /* Medium gray */
   width: 100%;
 }
 
 section div {
   flex: 1 1 calc(25% - 20px);
-  border: 1px solid #AB3130;
+  border: 1px solid #ced4da; /* Very light gray border */
   border-radius: 5px;
   padding: 10px;
-  background-color: #121212;
+  background-color: #f8f9fa; /* Light background */
 }
 
 section div h3 {
   font-size: 18px;
+  color: #495057; /* Medium gray */
 }
 
 section div p {
   font-size: 18px;
-  color: #000;
+  color: #868e96; /* Subtle gray */
 }
 
 /* Navigation bar */
 nav {
-  background-color: #AB3130;
+  background-color: #e9ecef; /* Very light gray */
   padding: 10px;
   text-align: center;
 }
 
 nav a {
-  color: #EEDBBF;
+  color: #495057;
   font-size: 16px;
   text-decoration: none;
   margin: 0 10px;
   padding: 5px 10px;
-  border: 1px solid #EEDBBF;
+  border: 1px solid #adb5bd; /* Light gray border */
   border-radius: 5px;
   transition: background-color 0.3s, color 0.3s;
 }
 
 nav a:hover {
-  background-color: #67191F;
-  color: #121212;
+  background-color: #dee2e6; /* Hover light gray */
+  color: #212529; /* Darker text */
 }
 
 /* Slideshow styles */
 .slideshow-container {
   width: 90%;
   margin: 20px auto;
-  border: 2px solid #AB3130;
+  border: 2px solid #adb5bd;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -83,8 +84,8 @@ nav a:hover {
 }
 
 .text {
-  background-color: rgba(0, 0, 0, 0.7);
-  color: inherit;
+  background-color: rgba(248, 249, 250, 0.8); /* Transparent light gray */
+  color: #343a40; /* Dark gray text */
   padding: 10px;
   font-size: 14px;
   text-align: center;
@@ -96,8 +97,8 @@ nav a:hover {
 .dot {
   height: 10px;
   width: 10px;
-  background-color: #67191F;
-  border: 1px solid #AB3130;
+  background-color: #adb5bd;
+  border: 1px solid #ced4da;
   border-radius: 50%;
   display: inline-block;
   margin: 5px;
@@ -105,7 +106,7 @@ nav a:hover {
 }
 
 .dot.active {
-  background-color: #EEDBBF;
+  background-color: #495057; /* Medium gray */
 }
 
 /* Responsive styling */
@@ -135,9 +136,9 @@ nav a:hover {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: #ffffff;
   min-width: 160px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
   z-index: 1;
   padding: 10px;
   text-align: center;
@@ -165,7 +166,7 @@ nav a:hover {
   height: 50px;
   margin: 0 10px;
   border-radius: 50%;
-  background-color: #000;
+  background-color: #dee2e6; /* Light gray */
 }
 
 button {
@@ -173,6 +174,16 @@ button {
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
+  background-color: #e9ecef; /* Button background */
+  border: 1px solid #adb5bd;
+  border-radius: 5px;
+  color: #495057;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  background-color: #dee2e6;
+  color: #212529;
 }
 
 #reaction-time {
@@ -209,4 +220,15 @@ button {
 .tourney-font {
   font-family: "Tourney", serif;
   font-style: italic;
+}
+
+.main{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 64px; /* Big font size */
+  font-weight: bold;
+  color: #343a40; /* Modern dark gray color */
+  text-align: center;
 }

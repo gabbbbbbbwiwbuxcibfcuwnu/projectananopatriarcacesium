@@ -1,3 +1,9 @@
+
+    document.addEventListener("click", function () {
+      window.location.href = "postindex.html";
+    });
+
+
 let slideIndex = 0;
 showSlides();
 
