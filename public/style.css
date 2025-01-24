@@ -1,7 +1,7 @@
 /* Basic page style resets */
 * {
   margin: 0;
-  padding: 0;
+  padding: 10;
   box-sizing: border-box;
 }
 body {
